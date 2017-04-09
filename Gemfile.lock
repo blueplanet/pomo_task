@@ -215,6 +215,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.1)
       execjs (>= 0.3.0, < 3)
+    vuejs-rails (2.2.1)
     warden (1.2.6)
       rack (>= 1.0)
     websocket-driver (0.6.5)
@@ -253,6 +254,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier
+  vuejs-rails
 
 RUBY VERSION
    ruby 2.4.0p0
