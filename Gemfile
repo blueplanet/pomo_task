@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.4.1'
 
-gem 'rails', '5.1.0.rc1'
+gem 'rails', '5.1.0'
 
 gem 'puma'
 gem 'sass-rails'
@@ -21,7 +21,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
-gem 'devise'
+gem 'devise', github: 'plataformatec/devise'
 gem 'devise-bootstrap-views'
 
 gem 'pg'
