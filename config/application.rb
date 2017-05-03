@@ -6,6 +6,8 @@ Bundler.require(*Rails.groups)
 
 module PomoTask
   class Application < Rails::Application
+    config.load_defaults 5.1
+
     config.time_zone = 'Asia/Tokyo'
     config.i18n.available_locales = [:en, :ja]
     config.i18n.default_locale = :ja
