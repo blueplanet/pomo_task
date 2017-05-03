@@ -9,6 +9,15 @@ GIT
       responders
       warden (~> 1.2.3)
 
+GIT
+  remote: git://github.com/rails/webpacker.git
+  revision: 69c09a51011bca67ff75e544b6a724d441b0018c
+  specs:
+    webpacker (1.2)
+      activesupport (>= 4.2)
+      multi_json (~> 1.2)
+      railties (>= 4.2)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -274,6 +283,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier
+  webpacker!
 
 RUBY VERSION
    ruby 2.4.1p111
